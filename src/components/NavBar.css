@@ -1,0 +1,36 @@
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+    border-bottom: 2px solid white;
+}
+
+.navlink{
+    display: flex;
+    gap: 40px;
+    text-decoration: none; 
+    font-size: 24px;
+}
+
+a{
+   text-decoration: none; 
+}
+
+.hearder_txt{
+    font-size: 24px;
+}
+
+@media screen and (max-width: 430px) {
+    .navlink{
+        gap: 20px;
+        font-size: 18px;
+    }
+    .NavBar{
+        padding: 0px 20px;
+    }
+    .hearder_txt{
+        font-size: 18px;
+    }
+  }

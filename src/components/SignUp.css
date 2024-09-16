@@ -1,0 +1,55 @@
+h1{
+    font-size: 48px;
+    font-weight: 400;
+    margin: 80px 0px 10px 0px;
+    width: 100%;
+}
+
+.signup{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    width: 100%;
+    gap: 20px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.main, form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.btn-container{
+    width: 100%;
+}
+
+button{
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+    font-size: 16px;
+    border: none;
+    font-weight: 500;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.invalid{
+    color: red;
+}
+
+.valid{
+    color: green;
+}
